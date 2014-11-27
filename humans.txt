@@ -1,0 +1,17 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Wided Kaper -- Owner
+    Reinier Kaper -- Web Developer -- @TheDutchCoder
+
+# THANKS
+
+    HTML5 Boilerplate Team -- For their solid work
+    Github -- For their awesome tool and hosting
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    Apache Server Configs, jQuery, Modernizr, Normalize.css
