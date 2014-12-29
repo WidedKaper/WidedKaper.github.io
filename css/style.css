@@ -4,7 +4,7 @@
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
-/* line 9, f:/_development/onyva/sass/normalize */
+/* line 9, F:/_development/onyva/sass/normalize */
 html {
   font-family: sans-serif;
   /* 1 */
@@ -16,7 +16,7 @@ html {
 /**
  * Remove default margin.
  */
-/* line 19, f:/_development/onyva/sass/normalize */
+/* line 19, F:/_development/onyva/sass/normalize */
 body {
   margin: 0; }
 
@@ -28,7 +28,7 @@ body {
  * and Firefox.
  * Correct `block` display not defined for `main` in IE 11.
  */
-/* line 45, f:/_development/onyva/sass/normalize */
+/* line 45, F:/_development/onyva/sass/normalize */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block; }
 
@@ -36,7 +36,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
  * 1. Correct `inline-block` display not defined in IE 8/9.
  * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
  */
-/* line 57, f:/_development/onyva/sass/normalize */
+/* line 57, F:/_development/onyva/sass/normalize */
 audio, canvas, progress, video {
   display: inline-block;
   /* 1 */
@@ -47,7 +47,7 @@ audio, canvas, progress, video {
  * Prevent modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
-/* line 67, f:/_development/onyva/sass/normalize */
+/* line 67, F:/_development/onyva/sass/normalize */
 audio:not([controls]) {
   display: none;
   height: 0; }
@@ -56,7 +56,7 @@ audio:not([controls]) {
  * Address `[hidden]` styling not present in IE 8/9/10.
  * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
  */
-/* line 78, f:/_development/onyva/sass/normalize */
+/* line 78, F:/_development/onyva/sass/normalize */
 [hidden], template {
   display: none; }
 
@@ -65,14 +65,14 @@ audio:not([controls]) {
 /**
  * Remove the gray background color from active links in IE 10.
  */
-/* line 89, f:/_development/onyva/sass/normalize */
+/* line 89, F:/_development/onyva/sass/normalize */
 a {
   background-color: transparent; }
 
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
-/* line 98, f:/_development/onyva/sass/normalize */
+/* line 98, F:/_development/onyva/sass/normalize */
 a:active, a:hover {
   outline: 0; }
 
@@ -81,21 +81,21 @@ a:active, a:hover {
 /**
  * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
  */
-/* line 109, f:/_development/onyva/sass/normalize */
+/* line 109, F:/_development/onyva/sass/normalize */
 abbr[title] {
   border-bottom: 1px dotted; }
 
 /**
  * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
  */
-/* line 118, f:/_development/onyva/sass/normalize */
+/* line 118, F:/_development/onyva/sass/normalize */
 b, strong {
   font-weight: bold; }
 
 /**
  * Address styling not present in Safari and Chrome.
  */
-/* line 126, f:/_development/onyva/sass/normalize */
+/* line 126, F:/_development/onyva/sass/normalize */
 dfn {
   font-style: italic; }
 
@@ -103,7 +103,7 @@ dfn {
  * Address variable `h1` font-size and margin within `section` and `article`
  * contexts in Firefox 4+, Safari, and Chrome.
  */
-/* line 135, f:/_development/onyva/sass/normalize */
+/* line 135, F:/_development/onyva/sass/normalize */
 h1 {
   font-size: 2em;
   margin: 0.67em 0; }
@@ -111,7 +111,7 @@ h1 {
 /**
  * Address styling not present in IE 8/9.
  */
-/* line 144, f:/_development/onyva/sass/normalize */
+/* line 144, F:/_development/onyva/sass/normalize */
 mark {
   background: #ff0;
   color: #000; }
@@ -119,25 +119,25 @@ mark {
 /**
  * Address inconsistent and variable font size in all browsers.
  */
-/* line 153, f:/_development/onyva/sass/normalize */
+/* line 153, F:/_development/onyva/sass/normalize */
 small {
   font-size: 80%; }
 
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-/* line 162, f:/_development/onyva/sass/normalize */
+/* line 162, F:/_development/onyva/sass/normalize */
 sub, sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
   vertical-align: baseline; }
 
-/* line 169, f:/_development/onyva/sass/normalize */
+/* line 169, F:/_development/onyva/sass/normalize */
 sup {
   top: -0.5em; }
 
-/* line 173, f:/_development/onyva/sass/normalize */
+/* line 173, F:/_development/onyva/sass/normalize */
 sub {
   bottom: -0.25em; }
 
@@ -146,14 +146,14 @@ sub {
 /**
  * Remove border when inside `a` element in IE 8/9/10.
  */
-/* line 184, f:/_development/onyva/sass/normalize */
+/* line 184, F:/_development/onyva/sass/normalize */
 img {
   border: 0; }
 
 /**
  * Correct overflow not hidden in IE 9/10/11.
  */
-/* line 192, f:/_development/onyva/sass/normalize */
+/* line 192, F:/_development/onyva/sass/normalize */
 svg:not(:root) {
   overflow: hidden; }
 
@@ -162,14 +162,14 @@ svg:not(:root) {
 /**
  * Address margin not present in IE 8/9 and Safari.
  */
-/* line 203, f:/_development/onyva/sass/normalize */
+/* line 203, F:/_development/onyva/sass/normalize */
 figure {
   margin: 1em 40px; }
 
 /**
  * Address differences between Firefox and other browsers.
  */
-/* line 211, f:/_development/onyva/sass/normalize */
+/* line 211, F:/_development/onyva/sass/normalize */
 hr {
   box-sizing: content-box;
   height: 0; }
@@ -177,14 +177,14 @@ hr {
 /**
  * Contain overflow in all browsers.
  */
-/* line 221, f:/_development/onyva/sass/normalize */
+/* line 221, F:/_development/onyva/sass/normalize */
 pre {
   overflow: auto; }
 
 /**
  * Address odd `em`-unit font size rendering in all browsers.
  */
-/* line 232, f:/_development/onyva/sass/normalize */
+/* line 232, F:/_development/onyva/sass/normalize */
 code, kbd, pre, samp {
   font-family: monospace, monospace;
   font-size: 1em; }
@@ -201,7 +201,7 @@ code, kbd, pre, samp {
  * 2. Correct font properties not being inherited.
  * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
  */
-/* line 256, f:/_development/onyva/sass/normalize */
+/* line 256, F:/_development/onyva/sass/normalize */
 button, input, optgroup, select, textarea {
   color: inherit;
   /* 1 */
@@ -213,7 +213,7 @@ button, input, optgroup, select, textarea {
 /**
  * Address `overflow` set to `hidden` in IE 8/9/10/11.
  */
-/* line 266, f:/_development/onyva/sass/normalize */
+/* line 266, F:/_development/onyva/sass/normalize */
 button {
   overflow: visible; }
 
@@ -223,7 +223,7 @@ button {
  * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
  * Correct `select` style inheritance in Firefox.
  */
-/* line 278, f:/_development/onyva/sass/normalize */
+/* line 278, F:/_development/onyva/sass/normalize */
 button, select {
   text-transform: none; }
 
@@ -234,7 +234,7 @@ button, select {
  * 3. Improve usability and consistency of cursor style between image-type
  *    `input` and others.
  */
-/* line 293, f:/_development/onyva/sass/normalize */
+/* line 293, F:/_development/onyva/sass/normalize */
 button, html input[type="button"], input[type="reset"], input[type="submit"] {
   -webkit-appearance: button;
   /* 2 */
@@ -244,14 +244,14 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
-/* line 303, f:/_development/onyva/sass/normalize */
+/* line 303, F:/_development/onyva/sass/normalize */
 button[disabled], html input[disabled] {
   cursor: default; }
 
 /**
  * Remove inner padding and border in Firefox 4+.
  */
-/* line 312, f:/_development/onyva/sass/normalize */
+/* line 312, F:/_development/onyva/sass/normalize */
 button::-moz-focus-inner, input::-moz-focus-inner {
   border: 0;
   padding: 0; }
@@ -260,7 +260,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-/* line 322, f:/_development/onyva/sass/normalize */
+/* line 322, F:/_development/onyva/sass/normalize */
 input {
   line-height: normal; }
 
@@ -271,7 +271,7 @@ input {
  * 1. Address box sizing set to `content-box` in IE 8/9/10.
  * 2. Remove excess padding in IE 8/9/10.
  */
-/* line 335, f:/_development/onyva/sass/normalize */
+/* line 335, F:/_development/onyva/sass/normalize */
 input[type="checkbox"], input[type="radio"] {
   box-sizing: border-box;
   /* 1 */
@@ -283,7 +283,7 @@ input[type="checkbox"], input[type="radio"] {
  * `font-size` values of the `input`, it causes the cursor style of the
  * decrement button to change from `default` to `text`.
  */
-/* line 347, f:/_development/onyva/sass/normalize */
+/* line 347, F:/_development/onyva/sass/normalize */
 input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {
   height: auto; }
 
@@ -292,7 +292,7 @@ input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-o
  * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
  *    (include `-moz` to future-proof).
  */
-/* line 357, f:/_development/onyva/sass/normalize */
+/* line 357, F:/_development/onyva/sass/normalize */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -304,14 +304,14 @@ input[type="search"] {
  * Safari (but not Chrome) clips the cancel button when the search input has
  * padding (and `textfield` appearance).
  */
-/* line 371, f:/_development/onyva/sass/normalize */
+/* line 371, F:/_development/onyva/sass/normalize */
 input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
 
 /**
  * Define consistent border, margin, and padding.
  */
-/* line 379, f:/_development/onyva/sass/normalize */
+/* line 379, F:/_development/onyva/sass/normalize */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
@@ -321,7 +321,7 @@ fieldset {
  * 1. Correct `color` not being inherited in IE 8/9/10/11.
  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
  */
-/* line 390, f:/_development/onyva/sass/normalize */
+/* line 390, F:/_development/onyva/sass/normalize */
 legend {
   border: 0;
   /* 1 */
@@ -331,7 +331,7 @@ legend {
 /**
  * Remove default vertical scrollbar in IE 8/9/10/11.
  */
-/* line 399, f:/_development/onyva/sass/normalize */
+/* line 399, F:/_development/onyva/sass/normalize */
 textarea {
   overflow: auto; }
 
@@ -339,7 +339,7 @@ textarea {
  * Don't inherit the `font-weight` (applied by a rule above).
  * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
  */
-/* line 408, f:/_development/onyva/sass/normalize */
+/* line 408, F:/_development/onyva/sass/normalize */
 optgroup {
   font-weight: bold; }
 
@@ -348,12 +348,12 @@ optgroup {
 /**
  * Remove most spacing between table cells.
  */
-/* line 419, f:/_development/onyva/sass/normalize */
+/* line 419, F:/_development/onyva/sass/normalize */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 425, f:/_development/onyva/sass/normalize */
+/* line 425, F:/_development/onyva/sass/normalize */
 td, th {
   padding: 0; }
 
@@ -366,22 +366,22 @@ td, th {
 /* --------------------------------- *
  * Base styles                       *
  * --------------------------------- */
-/* line 16, f:/_development/onyva/sass/boilerplate */
+/* line 16, F:/_development/onyva/sass/boilerplate */
 html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
   box-sizing: border-box; }
 
-/* line 26, f:/_development/onyva/sass/boilerplate */
+/* line 26, F:/_development/onyva/sass/boilerplate */
 *, *::after, *::before {
   box-sizing: inherit; }
 
-/* line 31, f:/_development/onyva/sass/boilerplate */
+/* line 31, F:/_development/onyva/sass/boilerplate */
 img, svg {
   vertical-align: middle; }
 
-/* line 35, f:/_development/onyva/sass/boilerplate */
+/* line 35, F:/_development/onyva/sass/boilerplate */
 textarea {
   resize: vertical; }
 
@@ -392,7 +392,7 @@ textarea {
  * Hide only visually, but have it available for screen readers:
  * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
  */
-/* line 51, f:/_development/onyva/sass/boilerplate */
+/* line 51, F:/_development/onyva/sass/boilerplate */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -427,7 +427,7 @@ textarea {
  *
  * Content wrappers.
  */
-/* line 9, f:/_development/onyva/sass/objects/wrapper */
+/* line 9, F:/_development/onyva/sass/objects/wrapper */
 .wrapper {
   position: relative;
   margin: 0 auto;
@@ -441,7 +441,7 @@ textarea {
     .wrapper {
       padding: 0 2rem; } }
 
-/* line 29, f:/_development/onyva/sass/objects/wrapper */
+/* line 29, F:/_development/onyva/sass/objects/wrapper */
 .wrapper--narrow {
   max-width: 40rem; }
 
@@ -450,7 +450,7 @@ textarea {
  *
  * SVG icons used throughout the website.
  */
-/* line 9, f:/_development/onyva/sass/objects/icon */
+/* line 9, F:/_development/onyva/sass/objects/icon */
 .icon {
   display: inline-block;
   vertical-align: middle;
@@ -474,7 +474,7 @@ textarea {
 /**
  * Base.
  */
-/* line 12, f:/_development/onyva/sass/objects/btn */
+/* line 12, F:/_development/onyva/sass/objects/btn */
 .btn {
   position: relative;
   top: 0;
@@ -495,16 +495,16 @@ textarea {
           transition: all 0.15s cubic-bezier(0.3, 0, 0.7, 1);
   -webkit-transition-property: background-color, color, border-color;
           transition-property: background-color, color, border-color; }
-  /* line 40, f:/_development/onyva/sass/objects/btn */
+  /* line 40, F:/_development/onyva/sass/objects/btn */
   .btn, .btn:link, .btn:visited {
     color: #6b6b6b;
     text-decoration: none;
     background-color: #fff; }
-  /* line 48, f:/_development/onyva/sass/objects/btn */
+  /* line 48, F:/_development/onyva/sass/objects/btn */
   .btn:hover, .btn:focus {
     background-color: #eee;
     box-shadow: 0 3px 0 0 #cecece; }
-  /* line 54, f:/_development/onyva/sass/objects/btn */
+  /* line 54, F:/_development/onyva/sass/objects/btn */
   .btn:active {
     top: 3px;
     background-color: #eee;
@@ -513,16 +513,16 @@ textarea {
 /**
  * Primary button.
  */
-/* line 73, f:/_development/onyva/sass/objects/btn */
+/* line 73, F:/_development/onyva/sass/objects/btn */
 .btn--primary, .btn--primary:link, .btn--primary:visited {
   color: #fff;
   background-color: #ea5858;
   box-shadow: 0 3px 0 0 #c04f4f; }
-/* line 81, f:/_development/onyva/sass/objects/btn */
+/* line 81, F:/_development/onyva/sass/objects/btn */
 .btn--primary:hover, .btn--primary:focus {
   background-color: #d54848;
   box-shadow: 0 3px 0 0 #b33737; }
-/* line 87, f:/_development/onyva/sass/objects/btn */
+/* line 87, F:/_development/onyva/sass/objects/btn */
 .btn--primary:active {
   background-color: #d54848;
   box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.1); }
@@ -530,7 +530,7 @@ textarea {
 /**
  * Menu button.
  */
-/* line 100, f:/_development/onyva/sass/objects/btn */
+/* line 100, F:/_development/onyva/sass/objects/btn */
 .btn--menu {
   position: absolute;
   right: 1rem;
@@ -539,11 +539,11 @@ textarea {
   border-color: #ccc;
   font-size: 0.75rem;
   box-shadow: none; }
-  /* line 118, f:/_development/onyva/sass/objects/btn */
+  /* line 118, F:/_development/onyva/sass/objects/btn */
   .btn--menu, .btn--menu:link, .btn--menu:visited, .btn--menu:hover, .btn--menu:focus, .btn--menu:active {
     top: 1rem;
     box-shadow: none; }
-  /* line 124, f:/_development/onyva/sass/objects/btn */
+  /* line 124, F:/_development/onyva/sass/objects/btn */
   .btn--menu:active {
     background-color: #e1e1e1; }
   @media screen and (min-width: 40em) {
@@ -558,25 +558,25 @@ textarea {
 /**
  * Base.
  */
-/* line 12, f:/_development/onyva/sass/objects/nav */
+/* line 12, F:/_development/onyva/sass/objects/nav */
 .nav {
   list-style-type: none;
   margin: 0;
   padding: 0; }
 
-/* line 19, f:/_development/onyva/sass/objects/nav */
+/* line 19, F:/_development/onyva/sass/objects/nav */
 .nav__item, .nav__link {
   position: relative;
   display: block; }
 
-/* line 24, f:/_development/onyva/sass/objects/nav */
+/* line 24, F:/_development/onyva/sass/objects/nav */
 .nav__link {
   line-height: 1; }
 
 /**
  * Inline nav.
  */
-/* line 36, f:/_development/onyva/sass/objects/nav */
+/* line 36, F:/_development/onyva/sass/objects/nav */
 .nav--inline, .nav--inline .nav__item {
   display: inline-block;
   vertical-align: middle; }
@@ -586,15 +586,15 @@ textarea {
  *
  * Logo wrapper for displaying the brand's logo.
  */
-/* line 9, f:/_development/onyva/sass/objects/logo */
+/* line 9, F:/_development/onyva/sass/objects/logo */
 .logo {
   display: inline-block;
   vertical-align: middle; }
-  /* line 13, f:/_development/onyva/sass/objects/logo */
+  /* line 13, F:/_development/onyva/sass/objects/logo */
   .logo:focus {
     box-shadow: none; }
 
-/* line 18, f:/_development/onyva/sass/objects/logo */
+/* line 18, F:/_development/onyva/sass/objects/logo */
 .logo__img {
   display: block;
   width: 100%;
@@ -628,7 +628,7 @@ textarea {
 /* --------------------------------- *
  * $BASE                             *
  * --------------------------------- */
-/* line 49, f:/_development/onyva/sass/style.scss */
+/* line 49, F:/_development/onyva/sass/style.scss */
 html {
   color: #6b6b6b;
   font-family: 'Source Sans Pro', 'Helvetica', 'Arial', sans-serif;
@@ -646,81 +646,98 @@ html {
   font-weight: bold;
   font-style: normal; }
 
-/* line 76, f:/_development/onyva/sass/style.scss */
+/* line 76, F:/_development/onyva/sass/style.scss */
+body {
+  -webkit-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+  -webkit-transition-property: visibility, opacity;
+          transition-property: visibility, opacity; }
+
+/* line 82, F:/_development/onyva/sass/style.scss */
+body, .wf-loading body {
+  visibility: hidden;
+  opacity: 0; }
+
+/* line 88, F:/_development/onyva/sass/style.scss */
+.wf-active body, .wf-inactive body {
+  visibility: visible;
+  opacity: 1; }
+
+/* line 93, F:/_development/onyva/sass/style.scss */
 h1, h2, h3, h4, h5, h6, .h {
   margin: 0;
   color: #444;
   font-family: 'Roboto Slab', 'Source Sans Pro', 'Helvetica', 'Arial', sans-serif;
   font-weight: 300;
   line-height: 1.2; }
-  /* line 84, f:/_development/onyva/sass/style.scss */
+  /* line 101, F:/_development/onyva/sass/style.scss */
   h1 b, h2 b, h3 b, h4 b, h5 b, h6 b, .h b {
     font-weight: normal; }
-  /* line 90, f:/_development/onyva/sass/style.scss */
+  /* line 107, F:/_development/onyva/sass/style.scss */
   h1 + p:not(.h--sub), h1 + ul, h1 + ol, h2 + p:not(.h--sub), h2 + ul, h2 + ol, h3 + p:not(.h--sub), h3 + ul, h3 + ol, h4 + p:not(.h--sub), h4 + ul, h4 + ol, h5 + p:not(.h--sub), h5 + ul, h5 + ol, h6 + p:not(.h--sub), h6 + ul, h6 + ol, .h + p:not(.h--sub), .h + ul, .h + ol {
     margin-top: 1.75rem; }
 
-/* line 96, f:/_development/onyva/sass/style.scss */
+/* line 113, F:/_development/onyva/sass/style.scss */
 h1, .h--1 {
   font-size: 2rem; }
   @media screen and (min-width: 40em) {
     h1, .h--1 {
       font-size: 2.2rem; } }
 
-/* line 97, f:/_development/onyva/sass/style.scss */
+/* line 114, F:/_development/onyva/sass/style.scss */
 h2, .h--2 {
   color: #2f567e;
   font-size: 1.6rem; }
 
-/* line 98, f:/_development/onyva/sass/style.scss */
+/* line 115, F:/_development/onyva/sass/style.scss */
 h3, .h--3 {
   font-size: 1.6rem; }
 
-/* line 99, f:/_development/onyva/sass/style.scss */
+/* line 116, F:/_development/onyva/sass/style.scss */
 h4, .h--4 {
   font-size: 1.4rem; }
 
-/* line 100, f:/_development/onyva/sass/style.scss */
+/* line 117, F:/_development/onyva/sass/style.scss */
 h5, .h--5 {
   font-size: 1.2rem; }
 
-/* line 101, f:/_development/onyva/sass/style.scss */
+/* line 118, F:/_development/onyva/sass/style.scss */
 h6, .h--6 {
   font-size: 1rem; }
 
-/* line 103, f:/_development/onyva/sass/style.scss */
+/* line 120, F:/_development/onyva/sass/style.scss */
 .h--sub {
   margin-top: 0.25rem; }
 
-/* line 107, f:/_development/onyva/sass/style.scss */
+/* line 124, F:/_development/onyva/sass/style.scss */
 p:not(.h), ul, ol {
   margin: 0;
   line-height: 1.4; }
-  /* line 114, f:/_development/onyva/sass/style.scss */
+  /* line 131, F:/_development/onyva/sass/style.scss */
   p:not(.h) + p, p:not(.h) + ul, p:not(.h) + ol, ul + p, ul + ul, ul + ol, ol + p, ol + ul, ol + ol {
     margin-top: 1.75rem; }
 
-/* line 119, f:/_development/onyva/sass/style.scss */
+/* line 136, F:/_development/onyva/sass/style.scss */
 hr {
   margin: 1.5rem auto;
   width: 5rem;
   border: 0;
   border-top: 1px solid #ea5858; }
 
-/* line 128, f:/_development/onyva/sass/style.scss */
+/* line 145, F:/_development/onyva/sass/style.scss */
 em {
   color: #ea5858; }
 
 /* --------------------------------- *
  * $FORMS                            *
  * --------------------------------- */
-/* line 139, f:/_development/onyva/sass/style.scss */
+/* line 156, F:/_development/onyva/sass/style.scss */
 form {
   max-width: 26rem;
   margin: 2rem auto 0;
   text-align: left; }
 
-/* line 147, f:/_development/onyva/sass/style.scss */
+/* line 164, F:/_development/onyva/sass/style.scss */
 label {
   margin-bottom: 0.25rem;
   display: block;
@@ -728,7 +745,7 @@ label {
   font-family: 'Roboto Slab', 'Source Sans Pro', 'Helvetica', 'Arial', sans-serif;
   cursor: pointer; }
 
-/* line 157, f:/_development/onyva/sass/style.scss */
+/* line 174, F:/_development/onyva/sass/style.scss */
 .form__input {
   display: block;
   width: 100%;
@@ -742,18 +759,18 @@ label {
 /**
  * Form fields.
  */
-/* line 178, f:/_development/onyva/sass/style.scss */
+/* line 195, F:/_development/onyva/sass/style.scss */
 .form__field {
   position: relative; }
 
-/* line 182, f:/_development/onyva/sass/style.scss */
+/* line 199, F:/_development/onyva/sass/style.scss */
 .form__field--submit {
   text-align: center; }
 
 /**
  * Form feedback.
  */
-/* line 191, f:/_development/onyva/sass/style.scss */
+/* line 208, F:/_development/onyva/sass/style.scss */
 .form__feedback {
   display: none;
   margin-top: 1rem;
@@ -765,7 +782,7 @@ label {
   text-align: center;
   background-color: #fff; }
 
-/* line 207, f:/_development/onyva/sass/style.scss */
+/* line 224, F:/_development/onyva/sass/style.scss */
 .form__feedback--error {
   border-bottom-color: #c04f4f;
   color: #fff;
@@ -774,14 +791,14 @@ label {
 /**
  * Helpers.
  */
-/* line 218, f:/_development/onyva/sass/style.scss */
+/* line 235, F:/_development/onyva/sass/style.scss */
 .required {
   color: #ea5858; }
 
 /**
  * Contact Form 7 overrides.
  */
-/* line 231, f:/_development/onyva/sass/style.scss */
+/* line 248, F:/_development/onyva/sass/style.scss */
 span.wpcf7-not-valid-tip, div.wpcf7-response-output {
   margin: 0;
   padding: 0.5rem;
@@ -792,17 +809,17 @@ span.wpcf7-not-valid-tip, div.wpcf7-response-output {
   font-size: 80%;
   background-color: #fff; }
 
-/* line 245, f:/_development/onyva/sass/style.scss */
+/* line 262, F:/_development/onyva/sass/style.scss */
 div.wpcf7-response-output {
   margin-top: 1rem; }
 
-/* line 250, f:/_development/onyva/sass/style.scss */
+/* line 267, F:/_development/onyva/sass/style.scss */
 span.wpcf7-not-valid-tip, div.wpcf7-validation-errors {
   border-bottom: 3px solid #c04f4f;
   color: #fff;
   background-color: #ea5858; }
 
-/* line 258, f:/_development/onyva/sass/style.scss */
+/* line 275, F:/_development/onyva/sass/style.scss */
 .ajax-loader {
   position: absolute;
   top: -55px;
@@ -812,13 +829,13 @@ span.wpcf7-not-valid-tip, div.wpcf7-validation-errors {
 /* --------------------------------- *
  * $HEADER                           *
  * --------------------------------- */
-/* line 273, f:/_development/onyva/sass/style.scss */
+/* line 290, F:/_development/onyva/sass/style.scss */
 .header--global {
   padding: 8rem 0 4rem;
   color: #fff;
   background: #2f567e url("../img/bg-header.jpg");
   background-size: cover; }
-  /* line 281, f:/_development/onyva/sass/style.scss */
+  /* line 298, F:/_development/onyva/sass/style.scss */
   .header--global .logo {
     margin-bottom: 2rem;
     width: 50%; }
@@ -828,7 +845,7 @@ span.wpcf7-not-valid-tip, div.wpcf7-validation-errors {
     @media screen and (min-width: 60em) {
       .header--global .logo {
         width: 20rem; } }
-  /* line 296, f:/_development/onyva/sass/style.scss */
+  /* line 313, F:/_development/onyva/sass/style.scss */
   .header--global .header__heading {
     color: #fff;
     font-family: "Brandon Grotesque", 'Roboto Slab', 'Source Sans Pro', 'Helvetica', 'Arial', sans-serif;
@@ -842,7 +859,7 @@ span.wpcf7-not-valid-tip, div.wpcf7-validation-errors {
     @media screen and (min-width: 60em) {
       .header--global .header__heading {
         font-size: 3.4rem; } }
-  /* line 314, f:/_development/onyva/sass/style.scss */
+  /* line 331, F:/_development/onyva/sass/style.scss */
   .header--global .header__subheading {
     margin-top: 0.75rem;
     margin-bottom: 3rem;
@@ -860,17 +877,17 @@ span.wpcf7-not-valid-tip, div.wpcf7-validation-errors {
     .header--global {
       padding: 11rem 0 7rem;
       text-align: left; }
-      /* line 340, f:/_development/onyva/sass/style.scss */
+      /* line 357, F:/_development/onyva/sass/style.scss */
       .header--global .nav--inline .nav__item {
         margin-right: 1rem; } }
   @media screen and (min-width: 60em) {
     .header--global {
       padding: 13rem 0 9rem; }
-      /* line 353, f:/_development/onyva/sass/style.scss */
+      /* line 370, F:/_development/onyva/sass/style.scss */
       .header--global .nav--inline .nav__item {
         margin-right: 2rem; } }
 
-/* line 363, f:/_development/onyva/sass/style.scss */
+/* line 380, F:/_development/onyva/sass/style.scss */
 .nav-bar {
   position: fixed;
   top: 0;
@@ -883,7 +900,7 @@ span.wpcf7-not-valid-tip, div.wpcf7-validation-errors {
   @media screen and (min-width: 60em) {
     .nav-bar {
       height: 6rem; } }
-  /* line 380, f:/_development/onyva/sass/style.scss */
+  /* line 397, F:/_development/onyva/sass/style.scss */
   .nav-bar .logo {
     position: absolute;
     top: 1rem;
@@ -896,18 +913,18 @@ span.wpcf7-not-valid-tip, div.wpcf7-validation-errors {
       .nav-bar .logo {
         display: block;
         top: 2rem; } }
-  /* line 397, f:/_development/onyva/sass/style.scss */
+  /* line 414, F:/_development/onyva/sass/style.scss */
   .nav-bar .logo__img {
     width: 4rem;
     height: 2.2rem;
     fill: #ccc;
     -webkit-transition: all 0.2s cubic-bezier(0.3, 0, 0.7, 1);
             transition: all 0.2s cubic-bezier(0.3, 0, 0.7, 1); }
-    /* line 406, f:/_development/onyva/sass/style.scss */
+    /* line 423, F:/_development/onyva/sass/style.scss */
     .nav-bar .logo__img:hover, .nav-bar .logo__img:focus {
       fill: #ea5858; }
 
-/* line 412, f:/_development/onyva/sass/style.scss */
+/* line 429, F:/_development/onyva/sass/style.scss */
 .nav--main {
   display: none;
   position: absolute;
@@ -916,13 +933,13 @@ span.wpcf7-not-valid-tip, div.wpcf7-validation-errors {
   width: 100%;
   box-shadow: 0 3px 0 0 rgba(0, 0, 0, 0.1);
   /* States */ }
-  /* line 423, f:/_development/onyva/sass/style.scss */
+  /* line 440, F:/_development/onyva/sass/style.scss */
   .nav--main.is-open {
     display: block; }
-  /* line 424, f:/_development/onyva/sass/style.scss */
+  /* line 441, F:/_development/onyva/sass/style.scss */
   .nav--main.is-closed {
     display: none; }
-  /* line 427, f:/_development/onyva/sass/style.scss */
+  /* line 444, F:/_development/onyva/sass/style.scss */
   .nav--main .nav__link {
     display: block;
     padding: 0.75rem 0.5rem;
@@ -934,22 +951,22 @@ span.wpcf7-not-valid-tip, div.wpcf7-validation-errors {
             transition: all 0.15s cubic-bezier(0.3, 0, 0.7, 1);
     -webkit-transition-property: background-color, color, border-color;
             transition-property: background-color, color, border-color; }
-    /* line 445, f:/_development/onyva/sass/style.scss */
+    /* line 462, F:/_development/onyva/sass/style.scss */
     .nav--main .nav__link:link, .nav--main .nav__link:visited, .nav--main .nav__link:hover, .nav--main .nav__link:focus {
       text-decoration: none; }
-    /* line 450, f:/_development/onyva/sass/style.scss */
+    /* line 467, F:/_development/onyva/sass/style.scss */
     .nav--main .nav__link:link, .nav--main .nav__link:visited {
       color: #2f567e; }
-    /* line 455, f:/_development/onyva/sass/style.scss */
+    /* line 472, F:/_development/onyva/sass/style.scss */
     .nav--main .nav__link:hover, .nav--main .nav__link:focus {
       color: #fff;
       border-bottom-color: #e42b2b;
       background-color: #ea5858;
       box-shadow: none; }
-    /* line 463, f:/_development/onyva/sass/style.scss */
+    /* line 480, F:/_development/onyva/sass/style.scss */
     .nav--main .nav__link:active {
       background-color: #d54848; }
-    /* line 467, f:/_development/onyva/sass/style.scss */
+    /* line 484, F:/_development/onyva/sass/style.scss */
     .nav--main .nav__link.btn {
       margin: 0;
       border: 0;
@@ -958,13 +975,13 @@ span.wpcf7-not-valid-tip, div.wpcf7-validation-errors {
       font-size: 0.8rem;
       background-color: #ea5858;
       box-shadow: none; }
-      /* line 480, f:/_development/onyva/sass/style.scss */
+      /* line 497, F:/_development/onyva/sass/style.scss */
       .nav--main .nav__link.btn:link, .nav--main .nav__link.btn:visited {
         color: #fff; }
-      /* line 485, f:/_development/onyva/sass/style.scss */
+      /* line 502, F:/_development/onyva/sass/style.scss */
       .nav--main .nav__link.btn:hover, .nav--main .nav__link.btn:focus {
         background-color: #d54848; }
-      /* line 489, f:/_development/onyva/sass/style.scss */
+      /* line 506, F:/_development/onyva/sass/style.scss */
       .nav--main .nav__link.btn:active {
         top: 0;
         background-color: #d03333; }
@@ -974,16 +991,16 @@ span.wpcf7-not-valid-tip, div.wpcf7-validation-errors {
           padding: 0.75em;
           border-radius: 3px;
           box-shadow: 0 3px 0 0 #c04f4f; }
-          /* line 503, f:/_development/onyva/sass/style.scss */
+          /* line 520, F:/_development/onyva/sass/style.scss */
           .nav--main .nav__link.btn:hover, .nav--main .nav__link.btn:focus {
             background-color: #d54848;
             box-shadow: 0 3px 0 0 #b33737; }
-          /* line 509, f:/_development/onyva/sass/style.scss */
+          /* line 526, F:/_development/onyva/sass/style.scss */
           .nav--main .nav__link.btn:active {
             top: 3px;
             background-color: #d54848;
             box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.1); } }
-  /* line 521, f:/_development/onyva/sass/style.scss */
+  /* line 538, F:/_development/onyva/sass/style.scss */
   .nav--main .nav__item:first-child .nav__link {
     border-top: 1px solid #eee; }
   @media screen and (min-width: 40em) {
@@ -995,34 +1012,34 @@ span.wpcf7-not-valid-tip, div.wpcf7-validation-errors {
       width: 100%;
       height: 4rem;
       box-shadow: none; }
-      /* line 536, f:/_development/onyva/sass/style.scss */
+      /* line 553, F:/_development/onyva/sass/style.scss */
       .nav--main .nav__item {
         display: table-cell;
         vertical-align: middle;
         width: auto;
         height: 4rem; }
-      /* line 544, f:/_development/onyva/sass/style.scss */
+      /* line 561, F:/_development/onyva/sass/style.scss */
       .nav--main .nav__link {
         padding: 2em 0;
         border: 0;
         font-size: 80%;
         text-align: center; }
-        /* line 551, f:/_development/onyva/sass/style.scss */
+        /* line 568, F:/_development/onyva/sass/style.scss */
         .nav--main .nav__link:hover, .nav--main .nav__link:focus {
           color: #2f567e;
           background-color: transparent;
           box-shadow: inset 0 -4px 0 0 #ea5858; }
-      /* line 559, f:/_development/onyva/sass/style.scss */
+      /* line 576, F:/_development/onyva/sass/style.scss */
       .nav--main .nav__item:first-child .nav__link {
         border: 0; } }
   @media screen and (min-width: 60em) {
     .nav--main {
       width: 40rem;
       height: 6rem; }
-      /* line 569, f:/_development/onyva/sass/style.scss */
+      /* line 586, F:/_development/onyva/sass/style.scss */
       .nav--main .nav__item {
         padding: 0 0.5rem; }
-      /* line 573, f:/_development/onyva/sass/style.scss */
+      /* line 590, F:/_development/onyva/sass/style.scss */
       .nav--main .nav__link {
         padding: 2.5rem 0;
         font-size: 1rem; } }
@@ -1030,14 +1047,14 @@ span.wpcf7-not-valid-tip, div.wpcf7-validation-errors {
 /* --------------------------------- *
  * $FOOTER                           *
  * --------------------------------- */
-/* line 588, f:/_development/onyva/sass/style.scss */
+/* line 605, F:/_development/onyva/sass/style.scss */
 .footer--global {
   padding: 2rem 0; }
 
 /* --------------------------------- *
  * $SECTIONS                         *
  * --------------------------------- */
-/* line 599, f:/_development/onyva/sass/style.scss */
+/* line 616, F:/_development/onyva/sass/style.scss */
 .section {
   padding: 4rem 0; }
   @media screen and (min-width: 40em) {
@@ -1047,22 +1064,22 @@ span.wpcf7-not-valid-tip, div.wpcf7-validation-errors {
     .section {
       padding: 8rem 0; } }
 
-/* line 612, f:/_development/onyva/sass/style.scss */
+/* line 629, F:/_development/onyva/sass/style.scss */
 .section--alt {
   background-color: #f8f8f8; }
 
-/* line 616, f:/_development/onyva/sass/style.scss */
+/* line 633, F:/_development/onyva/sass/style.scss */
 .section--focus {
   color: #fff;
   background-color: #2f567e; }
-  /* line 621, f:/_development/onyva/sass/style.scss */
+  /* line 638, F:/_development/onyva/sass/style.scss */
   .section--focus .h {
     color: #fff; }
 
 /**
  * Our approach.
  */
-/* line 634, f:/_development/onyva/sass/style.scss */
+/* line 651, F:/_development/onyva/sass/style.scss */
 .section--approach .article {
   display: inline-block;
   vertical-align: top;
@@ -1093,7 +1110,7 @@ span.wpcf7-not-valid-tip, div.wpcf7-validation-errors {
 /**
  * About us.
  */
-/* line 689, f:/_development/onyva/sass/style.scss */
+/* line 706, F:/_development/onyva/sass/style.scss */
 .section--about .article {
   display: inline-block;
   vertical-align: top;
@@ -1110,7 +1127,7 @@ span.wpcf7-not-valid-tip, div.wpcf7-validation-errors {
 /**
  * Testimonials.
  */
-/* line 715, f:/_development/onyva/sass/style.scss */
+/* line 732, F:/_development/onyva/sass/style.scss */
 .section--testimonials {
   padding: 4rem 0; }
   @media screen and (min-width: 40em) {
@@ -1120,8 +1137,9 @@ span.wpcf7-not-valid-tip, div.wpcf7-validation-errors {
     .section--testimonials {
       padding: 6rem 0; } }
 
-/* line 727, f:/_development/onyva/sass/style.scss */
+/* line 744, F:/_development/onyva/sass/style.scss */
 .testimonial {
+  display: none;
   margin-left: auto;
   margin-right: auto;
   max-width: 24em;
@@ -1137,25 +1155,29 @@ span.wpcf7-not-valid-tip, div.wpcf7-validation-errors {
     .testimonial {
       font-size: 1.8rem; } }
 
-/* line 748, f:/_development/onyva/sass/style.scss */
+/* line 767, F:/_development/onyva/sass/style.scss */
+.testimonial__content {
+  font-size: 1.4rem; }
+
+/* line 771, F:/_development/onyva/sass/style.scss */
 .testimonial__content:first-of-type::before {
   content: '\201C'; }
 
-/* line 752, f:/_development/onyva/sass/style.scss */
+/* line 775, F:/_development/onyva/sass/style.scss */
 .testimonial__content:last-of-type::after {
   content: '\201D'; }
 
-/* line 756, f:/_development/onyva/sass/style.scss */
+/* line 779, F:/_development/onyva/sass/style.scss */
 .testimonial__attribution {
   margin-top: 1rem;
   color: #2f567e;
-  font-size: 60%;
+  font-size: 1rem;
   font-style: italic; }
 
 /**
  * Rates.
  */
-/* line 771, f:/_development/onyva/sass/style.scss */
+/* line 794, F:/_development/onyva/sass/style.scss */
 .section--rates .article {
   display: inline-block;
   vertical-align: top;
@@ -1172,7 +1194,7 @@ span.wpcf7-not-valid-tip, div.wpcf7-validation-errors {
 /**
  * Contact us.
  */
-/* line 797, f:/_development/onyva/sass/style.scss */
+/* line 820, F:/_development/onyva/sass/style.scss */
 .section--contact {
   background: #2f567e url(../img/bg-contact.jpg);
   background-size: cover; }
@@ -1180,33 +1202,33 @@ span.wpcf7-not-valid-tip, div.wpcf7-validation-errors {
 /* --------------------------------- *
  * $ARTICLES                         *
  * --------------------------------- */
-/* line 809, f:/_development/onyva/sass/style.scss */
+/* line 832, F:/_development/onyva/sass/style.scss */
 .article {
   margin: 3rem 0 0; }
 
-/* line 813, f:/_development/onyva/sass/style.scss */
+/* line 836, F:/_development/onyva/sass/style.scss */
 .article__heading {
   margin: 1.5rem 0; }
 
 /**
  * Rates.
  */
-/* line 824, f:/_development/onyva/sass/style.scss */
+/* line 847, F:/_development/onyva/sass/style.scss */
 .article--rates .article__heading {
   margin-bottom: 0; }
-/* line 828, f:/_development/onyva/sass/style.scss */
+/* line 851, F:/_development/onyva/sass/style.scss */
 .article--rates .article__subheading {
   margin: 0 0 2rem;
   font-size: 80%;
   font-style: italic; }
-/* line 835, f:/_development/onyva/sass/style.scss */
+/* line 858, F:/_development/onyva/sass/style.scss */
 .article--rates .article__rate {
   color: #2f567e;
   font-family: 'Roboto Slab', 'Source Sans Pro', 'Helvetica', 'Arial', sans-serif;
   font-size: 125%; }
 
 @media print {
-  /* line 4, f:/_development/onyva/sass/print */
+  /* line 4, F:/_development/onyva/sass/print */
   *, *:before, *:after {
     background: transparent !important;
     color: #000 !important;
@@ -1215,15 +1237,15 @@ span.wpcf7-not-valid-tip, div.wpcf7-validation-errors {
     box-shadow: none !important;
     text-shadow: none !important; }
 
-  /* line 13, f:/_development/onyva/sass/print */
+  /* line 13, F:/_development/onyva/sass/print */
   a, a:visited {
     text-decoration: underline; }
 
-  /* line 17, f:/_development/onyva/sass/print */
+  /* line 17, F:/_development/onyva/sass/print */
   a[href]:after {
     content: " (" attr(href) ")"; }
 
-  /* line 21, f:/_development/onyva/sass/print */
+  /* line 21, F:/_development/onyva/sass/print */
   abbr[title]:after {
     content: " (" attr(title) ")"; }
 
@@ -1231,11 +1253,11 @@ span.wpcf7-not-valid-tip, div.wpcf7-validation-errors {
      * Don't show links that are fragment identifiers,
      * or use the `javascript:` pseudo protocol
      */
-  /* line 31, f:/_development/onyva/sass/print */
+  /* line 31, F:/_development/onyva/sass/print */
   a[href^="#"]:after, a[href^="javascript:"]:after {
     content: ""; }
 
-  /* line 36, f:/_development/onyva/sass/print */
+  /* line 36, F:/_development/onyva/sass/print */
   pre, blockquote {
     border: 1px solid #999;
     page-break-inside: avoid; }
@@ -1244,24 +1266,24 @@ span.wpcf7-not-valid-tip, div.wpcf7-validation-errors {
      * Printing Tables:
      * http://css-discuss.incutio.com/wiki/Printing_Tables
      */
-  /* line 46, f:/_development/onyva/sass/print */
+  /* line 46, F:/_development/onyva/sass/print */
   thead {
     display: table-header-group; }
 
-  /* line 51, f:/_development/onyva/sass/print */
+  /* line 51, F:/_development/onyva/sass/print */
   tr, img {
     page-break-inside: avoid; }
 
-  /* line 55, f:/_development/onyva/sass/print */
+  /* line 55, F:/_development/onyva/sass/print */
   img {
     max-width: 100% !important; }
 
-  /* line 61, f:/_development/onyva/sass/print */
+  /* line 61, F:/_development/onyva/sass/print */
   p, h2, h3 {
     orphans: 3;
     widows: 3; }
 
-  /* line 67, f:/_development/onyva/sass/print */
+  /* line 67, F:/_development/onyva/sass/print */
   h2, h3 {
     page-break-after: avoid; }
  }
