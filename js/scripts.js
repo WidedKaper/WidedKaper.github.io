@@ -588,6 +588,11 @@ $('.js-toggle-navigation').togglemenu({
 
         });
 
+        // Random testimonial.
+        $('.testimonial')
+            .eq(Math.floor(Math.random() * $('.testimonial').length))
+            .show();
+
     });
 
 })(jQuery, window, document);
