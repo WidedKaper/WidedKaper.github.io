@@ -300,26 +300,26 @@
             <p>In order to provide the highest quality of tutoring, we will schedule an evaluation of your skill-set before we start planning our lessons.</p>
           </div>
 
-          <form name="contact-form" action="//formspree.io/rp.kaper+test@gmail.com" method="post">
-            <input type="hidden" name="_next" value="/">
+          <form id="contact-form" name="contact-form" action="/" method="post">
+            <input type="hidden" name="_next" value="on-y-va.ca">
             <input type="hidden" name="_subject" value="Request through the On y va! website">
             <input type="text" name="_gotcha" style="display:none">
             <p class="form__field">
               <label for="contact-name" class="form__label">My name is: <span class="required">*</span></label>
-              <input type="text" name="contact-name" class="form__input" id="contact-name" aria-required="true" placeholder="John Appleseed">
+              <input type="text" name="name" class="form__input" id="contact-name" aria-required="true" placeholder="John Appleseed" required>
             </p>
             <p class="form__field">
               <label for="contact-email" class="form__label">You can email me at: <span class="required">*</span></label>
-              <input type="email" name="_replyto" class="form__input" id="contact-email" aria-required="true" placeholder="j.appleseed@mail.com">
+              <input type="email" name="_replyto" class="form__input" id="contact-email" aria-required="true" placeholder="j.appleseed@mail.com" required>
             </p>
             <p class="form__field">
               <label for="contact-phone" class="form__label">Or call me at:</label>
-              <input type="tel" name="contact-phone" class="form__input" id="contact-phone" placeholder="613 111 1234">
+              <input type="tel" name="phone" class="form__input" id="contact-phone" placeholder="613 111 1234">
             </p>
             <p class="form__field">
               <label for="contact-type" class="form__label">I'd like information about: <span class="required">*</span></label>
-              <select name="contact-type" class="form__input" id="contact-type" aria-required="true">
-                <option selected disabled>Select an option...</option>
+              <select name="type" class="form__input" id="contact-type" aria-required="true" required>
+                <option value="" selected disabled>Select an option...</option>
                 <option value="Private lessons">Private lessons</option>
                 <option value="Group lessons">Group lessons</option>
                 <option value="Availability">Availability</option>
@@ -328,11 +328,13 @@
             </p>
             <p class="form__field">
               <label for="contact-question" class="form__label">And my question is:</label>
-              <textarea name="contact-question" cols="40" rows="7" class="form__input" id="contact-question" placeholder="I&#039;m interested in French lessons, but I&#039;d like to know..."></textarea>
+              <textarea name="question" cols="40" rows="7" class="form__input" id="contact-question" placeholder="I&#039;m interested in French lessons, but I&#039;d like to know..."></textarea>
             </p>
             <p class="form__field form__field--submit">
               <input type="submit" value="Send" class="btn btn--primary" id="submit">
             </p>
+            <div class="form__feedback form__feedback--error">Something went wrong. Please try again!</div>
+            <div class="form__feedback form__feedback--success">Thank you for contacting us. We will get back to you within 24 hours!</div>
           </form>
 
         </div>

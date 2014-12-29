@@ -560,6 +560,34 @@ $('.js-toggle-navigation').togglemenu({
             headerSubtract: true
         });
 
+        // Form handling.
+        $('#contact-form').on('submit', function(event) {
+
+            var data = $('#contact-form').serialize(),
+                $feedback_success = $('.form__feedback--success'),
+                $feedback_error = $('.form__feedback--error');
+
+            event.preventDefault();
+
+            $.ajax({
+                url: "//formspree.io/wided.kaper+onyva@gmail.com",
+                method: "POST",
+                data: data,
+                dataType: "json"
+            }).done(function(data, textStatus, jqXHR) {
+
+                $feedback_success.show();
+                $feedback_error.hide();
+
+            }).fail(function(jqXHR, textStatus, errorThrown) {
+
+                $feedback_success.hide();
+                $feedback_error.show();
+
+            });
+
+        });
+
     });
 
 })(jQuery, window, document);
