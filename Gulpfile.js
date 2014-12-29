@@ -78,9 +78,9 @@ gulp.task('js:uglify', function() {
 // Minify images.
 gulp.task('img:minify', function() {
 
-    return gulp.src('img/**/*.*')
+    return gulp.src('src/img/**/*.*')
         .pipe(plugins.imagemin())
-        .pipe(gulp.dest('dist/img/'));
+        .pipe(gulp.dest('img/'));
 
 });
 

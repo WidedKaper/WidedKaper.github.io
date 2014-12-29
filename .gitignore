@@ -39,6 +39,7 @@ node_modules
 sass
 
 ### Gulp ###
+src
 dist
 
 
