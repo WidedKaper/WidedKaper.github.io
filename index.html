@@ -300,14 +300,17 @@
             <p>In order to provide the highest quality of tutoring, we will schedule an evaluation of your skill-set before we start planning our lessons.</p>
           </div>
 
-          <form name="contact-form" action="/" method="post">
+          <form name="contact-form" action="//formspree.io/rp.kaper+test@gmail.com" method="post">
+            <input type="hidden" name="_next" value="/">
+            <input type="hidden" name="_subject" value="Request through the On y va! website">
+            <input type="text" name="_gotcha" style="display:none">
             <p class="form__field">
               <label for="contact-name" class="form__label">My name is: <span class="required">*</span></label>
               <input type="text" name="contact-name" class="form__input" id="contact-name" aria-required="true" placeholder="John Appleseed">
             </p>
             <p class="form__field">
               <label for="contact-email" class="form__label">You can email me at: <span class="required">*</span></label>
-              <input type="email" name="contact-email" class="form__input" id="contact-email" aria-required="true" placeholder="j.appleseed@mail.com">
+              <input type="email" name="_replyto" class="form__input" id="contact-email" aria-required="true" placeholder="j.appleseed@mail.com">
             </p>
             <p class="form__field">
               <label for="contact-phone" class="form__label">Or call me at:</label>
