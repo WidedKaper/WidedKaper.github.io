@@ -31,8 +31,7 @@ gulp.task('css:sass', function() {
         .pipe(plugins.sass())
         .on('error', swallowError)
         .pipe(plugins.sourcemaps.write())
-        .pipe(gulp.dest('css/'))
-        .pipe(plugins.livereload());
+        .pipe(gulp.dest('css/'));
 
 });
 
