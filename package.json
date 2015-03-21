@@ -1,6 +1,6 @@
 {
   "name": "On-y-va",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "description": "Dependencies for the On y va website build.",
   "devDependencies": {
     "gulp": "^3.8.10",
